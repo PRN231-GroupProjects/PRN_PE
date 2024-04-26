@@ -33,7 +33,7 @@ public static class ConfigureServices
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", true, true)
             .Build();
-        var strConn = config["ConnectionString:PetShop2023DB"];
+        var strConn = config["ConnectionString:PRN231_SU23_StudentGroupDB"];
 
         return strConn;
     }
